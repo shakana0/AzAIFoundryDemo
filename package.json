@@ -1,0 +1,25 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "a simple code sample on how to use Azure OpenAI Service with JavaScript",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "ai",
+    "artificial intelligence",
+    "azure-openai"
+  ],
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.6",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
